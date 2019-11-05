@@ -12,4 +12,8 @@ User.destroy_all
 gage = User.create(name: "Gage", email: "gage@gmail.com")
 cody = User.create(name: "Cody", email: "cody@gmail.com")
 
-goal1 = Goal.create(user: gage, content: "adlkfjasd;lfjka")
+goal1 = Goal.create(user: gage, content: "Get some coffee")
+goal2 = Goal.create(user: gage, content: "Eat a burrito")
+goal3 = Goal.create(user: gage, content: "Don/'t forget lunch")
+goal4 = Goal.create(user: gage, content: "Make sure Stacey didn/'t screw up the back end")
+goal5 = Goal.create(user: gage, content: "Oh shit, get hackathon project done!")
